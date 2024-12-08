@@ -1,0 +1,5 @@
+Flask==2.x
+PyMongo==4.x
+Flask-Bcrypt==1.x
+Flask-WTF==1.x
+Flask-Bootstrap==3.x

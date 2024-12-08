@@ -1,0 +1,109 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/static/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Center the forms with a transparent background */
+form {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+/* Form Labels and Inputs */
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Buttons */
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Titles */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Dashboard styling */
+.dashboard {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.dashboard a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.dashboard a:hover {
+    background: #45a049;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
